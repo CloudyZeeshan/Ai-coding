@@ -5,7 +5,7 @@ st.set_page_config(page_title="Delicious Food", layout="wide")
 
 # Read HTML file
 def load_html():
-    with open("static/index.html", "r", encoding="utf-8") as file:
+    with open("codewithai/index.html", "r", encoding="utf-8") as file:
         return file.read()
 
 # Render HTML inside Streamlit
